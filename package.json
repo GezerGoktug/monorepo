@@ -6,7 +6,7 @@
     "dev:main": "pnpm --filter main dev",
     "dev:admin": "pnpm --filter admin dev",
     "build": "pnpm -r build",
-    "prod-build": "pnpm -r build && rm -rf dist && mkdir dist && cp -r apps/main/dist/* dist/ && mkdir dist/admin && cp -r apps/admin/dist/* dist/admin/"
+    "prod-build": "pnpm -r build && rm -rf dist && mkdir dist && cp -r packages/apps/main/dist/* dist/ && mkdir dist/admin && cp -r packages/apps/admin/dist/* dist/admin/"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.12",
