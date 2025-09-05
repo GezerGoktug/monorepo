@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@source "../../../libs";
+
+@theme {
+  --color-primary: #000000;
+}
+
+@layer utilities {
+    .col-start {
+        @apply flex flex-col items-start;
+    }
+}

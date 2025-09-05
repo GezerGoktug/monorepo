@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@source "../../../libs";
+
+
+
+@layer utilities {
+    .col-start {
+        @apply flex flex-col items-start;
+    }
+}
