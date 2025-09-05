@@ -1,5 +1,5 @@
 [build]
-  command = "pnpm install && pnpm prod-build"
+  command = "pnpm install && pnpm build"
   publish = "dist"
 
 # Redirects for SPA support
@@ -10,5 +10,5 @@
 
 [[redirects]]
   from = "/*"
-  to = "/index.html"
+  to = "/main/index.html"
   status = 200
