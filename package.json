@@ -8,20 +8,16 @@
     "build": "pnpm -r build"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4.1.12",
-    "@types/react": "^18.3.0",
-    "@types/react-dom": "^18.3.0",
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.2",
+    "sass": "^1.77.0"
   },
-  "dependencies": {
-    "@tailwindcss/vite": "^4.1.8",
-    "autoprefixer": "^10.4.21",
-    "axios": "^1.7.0",
-    "postcss": "^8.5.6",
-    "react": "^18.3.0",
-    "react-dom": "^18.3.0",
-    "react-router-dom": "^7.8.2",
-    "sass": "^1.77.0",
-    "tailwindcss": "^4.1.8"
+  "pnpm": {
+    "overrides": {
+      "@tailwindcss/vite": "4.1.8",
+      "axios": "1.7.0",
+      "react": "18.3.0",
+      "react-router-dom": "7.8.2",
+      "tailwindcss": "4.1.8"
+    }
   }
 }
